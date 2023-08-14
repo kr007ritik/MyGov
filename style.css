@@ -1,0 +1,184 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+}
+
+/* header section start */
+
+header .main-container {
+    box-shadow: 10px 5px 20px rgb(177, 175, 175);
+    border-bottom: 1px solid transparent;
+}
+
+/* h-top */
+header .main-container .head-top {
+    justify-content: space-between;
+    background: linear-gradient(233.19deg, #8EC850 -256.88%, #428DCB -167.3%, #2AB998 -81.23%, #C2579B -2.2%, #EC7026 80.36%)
+}
+
+header .main-container .head-top p {
+    font-size: 13px;
+}
+
+header .main-container .head-top p a {
+    text-decoration: none;
+}
+
+/* h-top-left */
+header .main-container .head-top .h-t-left {
+    gap: 10px;
+    margin: 10px 15px;
+}
+
+/* h-top-right */
+header .main-container .head-top .h-t-right {
+    gap: 10px;
+    margin-right: 10px;
+}
+
+header .main-container .head-top .h-t-right p:hover {
+    color: rgb(207, 202, 202);
+}
+
+header .main-container .head-top .h-t-right .social-media-logo {}
+
+header .main-container .head-top .h-t-right .social-media-logo i {
+    font-size: 25px;
+    cursor: pointer;
+}
+
+header .main-container .head-top .h-t-right .social-media-logo i:hover {
+    scale: 1.2;
+}
+
+/* h-bottom */
+header .main-container .head-bottom {
+    /* background-color: lightblue; */
+    justify-content: space-evenly;
+    margin: 15px 0;
+}
+
+header .main-container .head-bottom .h-b-left {}
+
+/* h-bottom-right */
+
+header .main-container .head-bottom .h-b-right {
+    gap: 15px;
+}
+
+/* navbar */
+nav ul {}
+
+nav ul li {
+    display: inline;
+    margin: 0 10px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: grey;
+    font-family: "montserratsemibold", sans-serif;
+}
+
+nav ul li a:hover{
+    color: #000;
+}
+
+
+/* icon sections */
+header .main-container .head-bottom .h-b-right .covid i {
+    font-size: 20px;
+    color: brown;
+}
+
+header .main-container .head-bottom .h-b-right .covid i:hover {
+    color: blue;
+    scale: 1.1;
+}
+
+header .main-container .head-bottom .h-b-right .search i {
+    background-color: rgba(160, 134, 134, 0.2);
+    color: #000;
+    padding: 10px;
+    border-radius: 50%;
+    font-size: 23px;
+}
+
+header .main-container .head-bottom .h-b-right .login {
+    border: 2px solid rgb(255, 72, 0);
+    border-radius: 50%;
+    border-radius: 50%;
+}
+
+header .main-container .head-bottom .h-b-right .login .user {
+    background: linear-gradient(233.19deg, #8EC850 -256.88%, #428DCB -167.3%, #2AB998 -81.23%, #C2579B -2.2%, #EC7026 80.36%);
+    border-radius: 50%;
+    margin: 3px;
+    padding: 10px;
+}
+
+
+header .main-container .head-bottom .h-b-right .login i {
+    font-size: 25px;
+    color: #fff;
+    /* overflow:hidden; */
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* common style */
+
+.color-000 {
+    color: #000 !important;
+}
+
+.color-fff {
+    color: #fff !important;
+}
+
+.d-flex {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.d-grid {
+    display: grid;
+    justify-content: center;
+    align-items: center;
+}
+
+.c-p {
+    cursor: pointer;
+}
+
+.tooltip .tooltiptext {
+    visibility: hidden;
+    width: 120px;
+    background-color: black;
+    color: #fff;
+    text-align: center;
+    border-radius: 6px;
+    padding: 5px 0;
+
+    /* Position the tooltip */
+    position: absolute;
+    z-index: 999;
+}
+
+.tooltip:hover .tooltiptext {
+    /* visibility: visible; */
+    
+}
